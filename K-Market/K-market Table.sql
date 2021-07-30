@@ -114,7 +114,7 @@ CREATE TABLE `km_product_cart` (
 );
 
 CREATE TABLE `km_product_order` (
-	`seq`			INT AUTO_INCREMENT PRIMARY KEY,
+	`orderId`	INT AUTO_INCREMENT PRIMARY KEY,
 	`uid`			VARCHAR(20),
 	`code`		INT,
 	`name`		VARCHAR(100),
